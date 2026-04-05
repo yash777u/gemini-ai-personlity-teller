@@ -436,7 +436,7 @@ st.markdown("""
     <div style="display:inline-block; background:rgba(59,130,246,0.1); color:#3B82F6; padding:4px 12px; border-radius:99px; font-size:0.7rem; font-weight:700; margin-bottom:8px; border:1px solid rgba(59,130,246,0.2); text-transform:uppercase; letter-spacing:0.5px;">
         🤖 AI-Powered Personality Detector
     </div>
-    <h1>🧠 Big Five Personality Assessment</h1>
+    <h1>🧠 BrainMirror.ai</h1>
     <p>50 questions · Powered by <b>Gemini 2.5 Flash</b></p>
 </div>
 """, unsafe_allow_html=True)
