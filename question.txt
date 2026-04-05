@@ -1,0 +1,106 @@
+{
+  "assessment_metadata": {
+    "name": "Big Five (OCEAN) 50-Item Assessment",
+    "description": "A 50-item questionnaire measuring the Big Five personality traits.",
+    "response_scale": {
+      "1": "Very Low Engagement",
+      "2": "Low Engagement",
+      "3": "Moderate Engagement",
+      "4": "High Engagement",
+      "5": "Very High Engagement"
+    },
+    "categories": {
+      "EXT": {
+        "name": "Extraversion",
+        "total_questions": 10,
+        "max_raw_score": 50
+      },
+      "AGR": {
+        "name": "Agreeableness",
+        "total_questions": 10,
+        "max_raw_score": 50
+      },
+      "CSN": {
+        "name": "Conscientiousness",
+        "total_questions": 10,
+        "max_raw_score": 50
+      },
+      "EST": {
+        "name": "Emotional Stability",
+        "total_questions": 10,
+        "max_raw_score": 50
+      },
+      "OPN": {
+        "name": "Openness",
+        "total_questions": 10,
+        "max_raw_score": 50
+      }
+    },
+    "scoring_logic": {
+      "positive_item_plus": "Value = Selected Score (1 to 5)",
+      "negative_item_minus": "Value = 6 - Selected Score",
+      "calculation": "Sum the scores of all 10 questions for a category to get the final Raw Score (range: 10 to 50)."
+    }
+  },
+  "questions": [
+    { "id": "EXT1", "text": "I am the life of the party.", "category": "EXT", "direction": "+" },
+    { "id": "AGR1", "text": "I feel little concern for others.", "category": "AGR", "direction": "-" },
+    { "id": "CSN1", "text": "I am always prepared.", "category": "CSN", "direction": "+" },
+    { "id": "EST1", "text": "I get stressed out easily.", "category": "EST", "direction": "-" },
+    { "id": "OPN1", "text": "I have a rich vocabulary.", "category": "OPN", "direction": "+" },
+    
+    { "id": "EXT2", "text": "I don't talk a lot.", "category": "EXT", "direction": "-" },
+    { "id": "AGR2", "text": "I am interested in people.", "category": "AGR", "direction": "+" },
+    { "id": "CSN2", "text": "I leave my belongings around.", "category": "CSN", "direction": "-" },
+    { "id": "EST2", "text": "I am relaxed most of the time.", "category": "EST", "direction": "+" },
+    { "id": "OPN2", "text": "I have difficulty understanding abstract ideas.", "category": "OPN", "direction": "-" },
+    
+    { "id": "EXT3", "text": "I feel comfortable around people.", "category": "EXT", "direction": "+" },
+    { "id": "AGR3", "text": "I insult people.", "category": "AGR", "direction": "-" },
+    { "id": "CSN3", "text": "I pay attention to details.", "category": "CSN", "direction": "+" },
+    { "id": "EST3", "text": "I worry about things.", "category": "EST", "direction": "-" },
+    { "id": "OPN3", "text": "I have a vivid imagination.", "category": "OPN", "direction": "+" },
+    
+    { "id": "EXT4", "text": "I keep in the background.", "category": "EXT", "direction": "-" },
+    { "id": "AGR4", "text": "I sympathize with others' feelings.", "category": "AGR", "direction": "+" },
+    { "id": "CSN4", "text": "I make a mess of things.", "category": "CSN", "direction": "-" },
+    { "id": "EST4", "text": "I seldom feel blue.", "category": "EST", "direction": "+" },
+    { "id": "OPN4", "text": "I am not interested in abstract ideas.", "category": "OPN", "direction": "-" },
+    
+    { "id": "EXT5", "text": "I start conversations.", "category": "EXT", "direction": "+" },
+    { "id": "AGR5", "text": "I am not interested in other people's problems.", "category": "AGR", "direction": "-" },
+    { "id": "CSN5", "text": "I get chores done right away.", "category": "CSN", "direction": "+" },
+    { "id": "EST5", "text": "I am easily disturbed.", "category": "EST", "direction": "-" },
+    { "id": "OPN5", "text": "I have excellent ideas.", "category": "OPN", "direction": "+" },
+    
+    { "id": "EXT6", "text": "I have little to say.", "category": "EXT", "direction": "-" },
+    { "id": "AGR6", "text": "I have a soft heart.", "category": "AGR", "direction": "+" },
+    { "id": "CSN6", "text": "I often forget to put things back in their proper place.", "category": "CSN", "direction": "-" },
+    { "id": "EST6", "text": "I get upset easily.", "category": "EST", "direction": "-" },
+    { "id": "OPN6", "text": "I do not have a good imagination.", "category": "OPN", "direction": "-" },
+    
+    { "id": "EXT7", "text": "I talk to a lot of different people at parties.", "category": "EXT", "direction": "+" },
+    { "id": "AGR7", "text": "I am not really interested in others.", "category": "AGR", "direction": "-" },
+    { "id": "CSN7", "text": "I like order.", "category": "CSN", "direction": "+" },
+    { "id": "EST7", "text": "I change my mood a lot.", "category": "EST", "direction": "-" },
+    { "id": "OPN7", "text": "I am quick to understand things.", "category": "OPN", "direction": "+" },
+    
+    { "id": "EXT8", "text": "I don't like to draw attention to myself.", "category": "EXT", "direction": "-" },
+    { "id": "AGR8", "text": "I take time out for others.", "category": "AGR", "direction": "+" },
+    { "id": "CSN8", "text": "I shirk my duties.", "category": "CSN", "direction": "-" },
+    { "id": "EST8", "text": "I have frequent mood swings.", "category": "EST", "direction": "-" },
+    { "id": "OPN8", "text": "I use difficult words.", "category": "OPN", "direction": "+" },
+    
+    { "id": "EXT9", "text": "I don't mind being the center of attention.", "category": "EXT", "direction": "+" },
+    { "id": "AGR9", "text": "I feel others' emotions.", "category": "AGR", "direction": "+" },
+    { "id": "CSN9", "text": "I follow a schedule.", "category": "CSN", "direction": "+" },
+    { "id": "EST9", "text": "I get irritated easily.", "category": "EST", "direction": "-" },
+    { "id": "OPN9", "text": "I spend time reflecting on things.", "category": "OPN", "direction": "+" },
+    
+    { "id": "EXT10", "text": "I am quiet around strangers.", "category": "EXT", "direction": "-" },
+    { "id": "AGR10", "text": "I make people feel at ease.", "category": "AGR", "direction": "+" },
+    { "id": "CSN10", "text": "I am exacting in my work.", "category": "CSN", "direction": "+" },
+    { "id": "EST10", "text": "I often feel blue.", "category": "EST", "direction": "-" },
+    { "id": "OPN10", "text": "I am full of ideas.", "category": "OPN", "direction": "+" }
+  ]
+}
